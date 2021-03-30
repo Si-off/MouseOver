@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.item img {
+    width: 300px;
+    height: 480px;
+}
+
+.item .img2 {
+    width: 300px;
+    height: 480px;
+    background: url("https://images.pexels.com/photos/2878711/pexels-photo-2878711.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+}
+
+.item .img2:hover {
+    background: url("https://images.pexels.com/photos/1467435/pexels-photo-1467435.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-size: cover;
+}
